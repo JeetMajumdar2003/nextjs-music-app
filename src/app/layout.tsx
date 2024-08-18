@@ -12,11 +12,14 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode;  // React.ReactNode is a type that represents a valid React node(Typescript type)
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <h2>Nav Item</h2>
+        {children}
+      </body>
     </html>
   );
 }
