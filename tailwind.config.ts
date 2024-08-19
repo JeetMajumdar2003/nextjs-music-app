@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",  // this will enable dark mode in our app, by tailwindcss
   theme: {
     extend: {
       backgroundImage: {

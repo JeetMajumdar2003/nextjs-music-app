@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";   // '@' is an alias for the src directory
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;  // React.ReactNode is a type that represents a valid React node(Typescript type)
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
-        <h2>Nav Item</h2>
+        <div className="relative w-full flex items-center justify-center">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>
