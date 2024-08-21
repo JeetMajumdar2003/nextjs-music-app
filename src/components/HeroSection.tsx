@@ -1,3 +1,4 @@
+"use client";
 import Link from 'next/link'
 import React from 'react'
 import { Spotlight } from "@/components/ui/Spotlight";
@@ -14,7 +15,7 @@ function HeroSection() {
             />
             <div className='p-4 relative z-10 w-full text-center'>
                 <h1
-                    className='mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-700'
+                    className='mt-[8rem] md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-700'
                 >
                     Master The Art Of Music
                 </h1>
