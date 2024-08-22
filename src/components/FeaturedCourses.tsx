@@ -24,7 +24,7 @@ function FeaturedCourses() {
     const featuredCourses = coursesData.courses.filter((course: Course) => course.isFeatured === true);
 
     return (
-        <div className='py-12 bg-slate-950'>
+        <div className='py-12 bg-slate-950 bg-grid-white/[0.05]'>
             <div className='text-center'>
                 {/* Heading */}
                 <h2 className='text-base text-teal-600 font-semibold tracking-wider underline underline-offset-2'>COURSES WE OFFER</h2>
