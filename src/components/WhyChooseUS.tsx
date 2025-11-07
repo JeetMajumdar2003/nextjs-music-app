@@ -6,7 +6,7 @@ const content = [
     {
         title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
         description:
-            "Engage with interactive lessons that adapt to your learning pace. Our platform offers a variety of exercises and tutorials to help you master your instrument. Whether you're a beginner or an advanced player, our lessons cater to all skill levels.",
+            "Engage with interactive lessons that adapt to your learning pace. Our platform offers a variety of exercises and tutorials to help you master your instrument. Whether you are a beginner or an advanced player, our lessons cater to all skill levels.",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--blue-500),var(--purple-500))] flex items-center justify-center text-white">
                 Interactive Lessons
@@ -26,7 +26,7 @@ const content = [
     {
         title: "Practice Tools",
         description:
-            "Access a variety of practice tools, including metronomes, tuners, and backing tracks. Our platform helps you stay on beat and in tune while you practice. Whether you're practicing scales, chords, or complex melodies, our tools will assist you in honing your skills.",
+            "Access a variety of practice tools, including metronomes, tuners, and backing tracks. Our platform helps you stay on beat and in tune while you practice. Whether you are practicing scales, chords, or complex melodies, our tools will assist you in honing your skills.",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--green-500),var(--yellow-500))] flex items-center justify-center text-white">
                 Practice Tools
